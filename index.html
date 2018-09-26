@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>select-box</title>
+  
+</head>
+<body>
+  <div id="container">
+    <script src="index.js"></script>
+  </div>
+  
+</body>
+<style>
+  #container{
+    padding: 0 20px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    border: 1px solid #000;
+    height: 100px;
+    align-items: center;
+  }
+  .button{
+    min-width: 50px;
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: #ccc;
+  }
+  .button+.button{
+    margin-left: 10px;
+  }
+</style>
+</html>
